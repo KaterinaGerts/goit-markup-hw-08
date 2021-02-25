@@ -1,0 +1,26 @@
+{
+    "version": 3,
+    "mappings": ";AiBAA,uBAAuB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/base/_common.scss",
+        "../sass/components/_button.scss",
+        "../sass/components/_form.scss",
+        "../sass/components/_modal.scss",
+        "../sass/components/_links.scss",
+        "../sass/components/_icons.scss",
+        "../sass/components/_logo.scss",
+        "../sass/components/_social-links.scss",
+        "../sass/layout/_nav.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_services.scss",
+        "../sass/layout/_images-description.scss",
+        "../sass/layout/_team.scss",
+        "../sass/layout/_clients.scss",
+        "../sass/layout/_footer.scss",
+        "../sass/layout/_portfolio-description.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
