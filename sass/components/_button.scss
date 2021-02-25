@@ -1,0 +1,71 @@
+.button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  width: 200px;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  color: $secondary-text-color;
+  background-color: $accent-color;
+}
+
+/*/ Кнопка секции герой*/
+
+/* Кнопка х в модалке*/
+
+.modal-button {
+  // position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  /* outline: none; */
+
+  cursor: pointer;
+  border: 1px solid $modal-button-border-color;
+  border-radius: 50%;
+  background-color: $secondary-text-color;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .x-button {
+    fill: $accent-color;
+  }
+  &:focus-within > .x-button {
+    fill: $accent-color;
+  }
+}
+
+/*/ Кнопка х в модалке*/
+
+/* Кнопка отправить в модалке*/
+
+.send {
+  // position: absolute;
+  left: 164px;
+  bottom: 40px;
+  width: 200px;
+  height: 50px;
+
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+
+  .btn-text {
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: $secondary-text-color;
+  }
+}
+
+/*/ Кнопка отправить в модалке*/

@@ -1,0 +1,40 @@
+.hero {
+  text-align: center;
+  background-color: $primary-bg-color;
+
+  .hero-container {
+    width: 100%;
+  }
+
+  .hero-text {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 360px;
+
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+  }
+}
+
+.overlay {
+  padding-top: 118px;
+  padding-bottom: 118px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url("../../img/hero/hero-img1x.jpg");
+
+  background-image: linear-gradient(to right, $gradient, $gradient),
+    url("../../img/hero/hero-img1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
