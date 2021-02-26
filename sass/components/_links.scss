@@ -32,14 +32,18 @@
 /*ссылки кнопки в portfolio.html*/
 
 .links {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
+  list-style: none;
 
   .links-button {
     margin-right: 8px;
+    margin-bottom: 15px;
 
-    &:last-child {
-      margin-right: 0px;
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 40px;
     }
 
     .links-description {

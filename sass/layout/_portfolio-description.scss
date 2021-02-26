@@ -1,0 +1,52 @@
+.section-bar {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.image-description {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.border {
+  margin-bottom: 30px;
+  border: 1px solid $border-color;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .portfolio-links {
+    text-decoration: none;
+  }
+}
+
+.site-bar {
+  padding: 20px 24px;
+}
+
+.subtitle-bar {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: $title-text-color;
+}
+
+.description-bar {
+  margin: 0;
+
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  color: $primary-text-color;
+}
