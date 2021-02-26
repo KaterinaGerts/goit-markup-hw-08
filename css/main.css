@@ -731,8 +731,10 @@ body {
   letter-spacing: 0.03em;
 }
 
-.title-bar {
-  display: none;
+@media screen and (max-width: 1199px) {
+  .title-bar {
+    display: none;
+  }
 }
 
 .team {
