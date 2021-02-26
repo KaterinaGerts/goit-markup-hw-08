@@ -69,3 +69,29 @@
 }
 
 /*/ Кнопка отправить в модалке*/
+
+/* Кнопка бургер*/
+.menu-button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  background-color: transparent;
+
+  & .icon-cross {
+    display: none;
+  }
+
+  & .is-open.icon-cross {
+    display: block;
+  }
+
+  & .icon-menu {
+    display: block;
+  }
+  & .is-open.icon-menu {
+    display: none;
+  }
+}
+/* Кнопка бургер*/

@@ -97,6 +97,32 @@ body {
 }
 
 /*/ Кнопка отправить в модалке*/
+/* Кнопка бургер*/
+.menu-button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button .is-open.icon-cross {
+  display: block;
+}
+
+.menu-button .icon-menu {
+  display: block;
+}
+
+.menu-button .is-open.icon-menu {
+  display: none;
+}
+
+/* Кнопка бургер*/
 .form {
   width: 450px;
 }
@@ -288,6 +314,7 @@ body {
 }
 
 .Webstudio {
+  margin: 0;
   font-family: Raleway;
   font-weight: bold;
   font-size: 24px;
@@ -648,6 +675,20 @@ body {
   line-height: 1.555;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.inline-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list,
+.address {
+  opacity: 0;
 }
 
 .hero {
