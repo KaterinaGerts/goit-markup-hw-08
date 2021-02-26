@@ -60,3 +60,13 @@
     background-color: $accent-color;
   }
 }
+
+.icon-fill {
+  fill: $secondary-text-color;
+}
+.address-bar {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

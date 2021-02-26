@@ -96,11 +96,12 @@ body {
 
 /*/ Кнопка отправить в модалке*/
 .form {
-  width: 570px;
+  width: 450px;
 }
 
 .form .form-field .contact-label {
   display: block;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -110,11 +111,12 @@ body {
 }
 
 .form .form-field .contact-input {
-  width: 358px;
+  width: 100%;
   height: 50px;
   border: 0;
   padding: 0;
   padding-left: 16px;
+  margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -170,6 +172,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
   padding: 0 29px;
   width: 200px;
   height: 50px;
@@ -181,6 +186,7 @@ body {
 }
 
 .contact-button .button-text {
+  margin-right: 10px;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
@@ -285,6 +291,10 @@ body {
   color: #2196f3;
 }
 
+.Webstudio .studio-white {
+  color: #ffffff;
+}
+
 .team-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,6 +363,23 @@ body {
 
 .icon-color:hover, .icon-color:focus {
   background-color: #2196f3;
+}
+
+.icon-fill {
+  fill: #ffffff;
+}
+
+.address-bar {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero {
@@ -560,5 +587,54 @@ body {
 
 .regular-clients .icon-logo {
   fill: currentColor;
+}
+
+.padding-contacts {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.box-container {
+  text-align: center;
+}
+
+.box-container .contacts-list {
+  margin-bottom: 60px;
+}
+
+.logo {
+  margin-top: 0;
+}
+
+.location {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-color {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-color:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.icons {
+  margin-bottom: 60px;
+}
+
+.icons .subtitle-text {
+  margin-top: 0;
 }
 /*# sourceMappingURL=main.css.map */
