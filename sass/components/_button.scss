@@ -16,7 +16,7 @@
 /* Кнопка х в модалке*/
 
 .modal-button {
-  // position: absolute;
+  position: absolute;
   top: 8px;
   right: 8px;
   width: 30px;
@@ -44,8 +44,8 @@
 /* Кнопка отправить в модалке*/
 
 .send {
-  // position: absolute;
-  left: 164px;
+  position: absolute;
+  left: 120px;
   bottom: 40px;
   width: 200px;
   height: 50px;
