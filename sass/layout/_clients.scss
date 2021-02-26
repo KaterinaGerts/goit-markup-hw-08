@@ -1,0 +1,17 @@
+.clients-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .clients {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+}
+
+.clients-logo {
+  display: inline-flex;
+  width: 210px;
+  height: 90px;
+}
