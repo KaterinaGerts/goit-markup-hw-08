@@ -700,7 +700,7 @@ body {
   margin-bottom: 30px;
 }
 
-.list-description :last-child {
+.list-description:last-child {
   margin-bottom: 0;
 }
 
@@ -712,6 +712,9 @@ body {
 }
 
 .subtitle {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 30px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -722,6 +725,7 @@ body {
 }
 
 .first-description {
+  margin: 0;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
