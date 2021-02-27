@@ -27,6 +27,14 @@
     &:nth-last-child(-n + 2) {
       margin-bottom: 0;
     }
+    @media screen and (min-width: $desktop) {
+      width: 270px;
+      margin: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
   .icon {
@@ -40,6 +48,9 @@
     @media screen and (min-width: $tablet) {
       width: 354px;
       height: 120px;
+    }
+    @media screen and (min-width: $desktop) {
+      width: 270px;
     }
   }
 }
