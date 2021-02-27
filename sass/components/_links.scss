@@ -17,6 +17,15 @@
       color: $accent-color;
       fill: $accent-color;
     }
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      align-items: center;
+      margin-right: 30px;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
   }
 }
 

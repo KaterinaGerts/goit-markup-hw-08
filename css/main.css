@@ -271,6 +271,21 @@ body {
   fill: #2196f3;
 }
 
+@media screen and (min-width: 1200px) {
+  .address .adress-color {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 30px;
+  }
+  .address .adress-color:last-child {
+    margin-right: 0px;
+  }
+}
+
 .nav-contact .icon-contacts {
   margin-right: 10px;
   fill: currentColor;
@@ -831,6 +846,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .inline-item .menu-container {
+    padding-top: 32px;
+  }
+}
+
 .inline-item .list {
   list-style: none;
   padding: 0;
@@ -945,6 +966,15 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
