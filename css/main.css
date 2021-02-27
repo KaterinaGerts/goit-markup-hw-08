@@ -119,6 +119,16 @@ body {
   display: none;
 }
 
+.menu-button:hover .icon-menu,
+.menu-button:hover .icon-cross {
+  fill: #2196f3;
+}
+
+.menu-button:focus-within > .icon-menu,
+.menu-button:focus-within > .icon-cross {
+  fill: #2196f3;
+}
+
 @media screen and (min-width: 768px) {
   .menu-button {
     display: none;
@@ -699,6 +709,7 @@ body {
 
 .menu-container {
   background-color: #ffffff;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -1049,6 +1060,10 @@ body {
 
 .icons .subtitle-text {
   margin-top: 0;
+}
+
+.border-line {
+  border: 1px solid #ececec;
 }
 
 .section-bar {

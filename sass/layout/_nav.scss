@@ -10,6 +10,7 @@
 
 .menu-container {
   background-color: $secondary-text-color;
+  z-index: 1;
 
   @media screen and (max-width: 767px) {
     display: none;

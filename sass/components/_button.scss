@@ -90,6 +90,16 @@
     display: none;
   }
 
+  &:hover .icon-menu,
+  &:hover .icon-cross {
+    fill: $accent-color;
+  }
+
+  &:focus-within > .icon-menu,
+  &:focus-within > .icon-cross {
+    fill: $accent-color;
+  }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
