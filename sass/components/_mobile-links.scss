@@ -6,6 +6,9 @@
   margin: 0;
 
   .socials-size {
+    padding-right: 10px;
+    margin-right: 10px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -13,11 +16,12 @@
     letter-spacing: 0.02em;
 
     color: $accent-color;
-
-    margin-right: 10px;
+    border-right: 1px solid $social-vertical-line;
 
     &:last-child {
       margin-right: 0;
+      border-right: none;
+      padding-right: 0;
     }
   }
 }
