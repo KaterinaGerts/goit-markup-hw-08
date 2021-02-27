@@ -12,6 +12,12 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+
+  @media screen and (min-width: $tablet) {
+    margin: -15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .border {
   margin-bottom: 30px;
@@ -25,6 +31,16 @@
 
   .portfolio-links {
     text-decoration: none;
+  }
+  @media screen and (min-width: $tablet) {
+    display: inline-flex;
+    flex-direction: column;
+    width: 354px;
+    margin: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 

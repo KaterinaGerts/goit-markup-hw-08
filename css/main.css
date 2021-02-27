@@ -1329,6 +1329,17 @@ body {
   text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+  .image-description {
+    margin: -15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .border {
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
@@ -1342,6 +1353,23 @@ body {
 
 .border .portfolio-links {
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .border {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 354px;
+    margin: 15px;
+  }
+  .border:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .site-bar {
