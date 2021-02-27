@@ -47,6 +47,9 @@
       border: 1px solid $accent-color;
     }
   }
+  @media screen and (min-width: $tablet) {
+    margin-left: 151px;
+  }
 }
 
 .contact-button {

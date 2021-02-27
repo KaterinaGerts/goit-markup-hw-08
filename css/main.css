@@ -205,6 +205,12 @@ body {
   border: 1px solid #2196f3;
 }
 
+@media screen and (min-width: 768px) {
+  .form {
+    margin-left: 151px;
+  }
+}
+
 .contact-button {
   border: 0;
   display: -webkit-box;
@@ -1239,8 +1245,33 @@ body {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .box-container .contacts-list {
+    margin-right: 140px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
 .logo {
   margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: 100px;
+  }
 }
 
 .location {

@@ -12,11 +12,22 @@
 
   .contacts-list {
     margin-bottom: 60px;
+    @media screen and (min-width: $tablet) {
+      margin-right: 140px;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
   }
 }
 
 .logo {
   margin-top: 0;
+  @media screen and (min-width: $tablet) {
+    margin-left: 100px;
+  }
 }
 .location {
   margin-bottom: 8px;
