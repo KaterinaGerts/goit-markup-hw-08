@@ -1185,6 +1185,12 @@ body {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .clients-logo {
+    width: 226px;
+  }
+}
+
 .regular-clients {
   display: -webkit-box;
   display: -ms-flexbox;

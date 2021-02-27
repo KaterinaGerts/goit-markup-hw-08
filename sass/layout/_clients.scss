@@ -20,6 +20,9 @@
   &:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
+  @media screen and (min-width: $tablet) {
+    width: 226px;
+  }
 }
 
 .regular-clients {
