@@ -5,3 +5,9 @@ body {
   color: $primary-text-color;
   background-color: $secondary-text-color;
 }
+
+.photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
