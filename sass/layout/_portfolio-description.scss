@@ -24,6 +24,7 @@
     flex-wrap: wrap;
   }
 }
+
 .border {
   margin-bottom: 30px;
   border: 1px solid $border-color;
@@ -44,6 +45,14 @@
     margin: 15px;
 
     &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 370px;
+
+    &:nth-last-child(-n + 3) {
       margin-bottom: 0;
     }
   }
