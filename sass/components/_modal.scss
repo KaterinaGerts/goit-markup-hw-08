@@ -31,6 +31,11 @@
 
   cursor: pointer;
   background-color: $secondary-text-color;
+
+  @media screen and (min-width: $desktop) {
+    width: 528px;
+    top: 50%;
+  }
 }
 
 .form-title {
@@ -55,6 +60,11 @@
   width: 448px;
   height: 342px;
   cursor: pointer;
+
+  @media screen and (min-width: $desktop) {
+    top: 41%;
+    left: 50%;
+  }
 }
 
 .data-form {
@@ -94,6 +104,9 @@
   .data-list:focus-within > & {
     border: 1px solid $accent-color;
     background-color: $secondary-text-color;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 448px;
   }
 }
 
@@ -142,6 +155,9 @@
   .data-list:focus-within > & {
     border: 1px solid $accent-color;
     background-color: $secondary-text-color;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 448px;
   }
 }
 
@@ -199,6 +215,11 @@
   line-height: 14px;
   letter-spacing: 0.03em;
   cursor: pointer;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .contract-link {
@@ -206,4 +227,9 @@
   text-decoration: none;
   color: $accent-color;
   outline: none;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }

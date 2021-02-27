@@ -66,6 +66,9 @@
     letter-spacing: 0.06em;
     color: $secondary-text-color;
   }
+  @media screen and (min-width: $desktop) {
+    left: 160px;
+  }
 }
 
 /*/ Кнопка отправить в модалке*/

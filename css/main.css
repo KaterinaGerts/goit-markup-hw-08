@@ -96,6 +96,12 @@ body {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .send {
+    left: 160px;
+  }
+}
+
 /*/ Кнопка отправить в модалке*/
 /* Кнопка бургер*/
 .menu-button {
@@ -501,6 +507,13 @@ body {
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    top: 50%;
+  }
+}
+
 .form-title {
   margin: 0;
   margin-bottom: 12px;
@@ -521,6 +534,13 @@ body {
   width: 448px;
   height: 342px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .data {
+    top: 41%;
+    left: 50%;
+  }
 }
 
 .data-form {
@@ -565,6 +585,12 @@ body {
 .data-list:focus-within > .modal-input {
   border: 1px solid #2196f3;
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-input {
+    width: 448px;
+  }
 }
 
 .icon-data {
@@ -635,6 +661,12 @@ body {
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .comment {
+    width: 448px;
+  }
+}
+
 .checkbox {
   position: absolute;
   left: 41px;
@@ -688,11 +720,25 @@ body {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1200px) {
+  .contract-term {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
 .contract-link {
   padding-left: 0;
   text-decoration: none;
   color: #2196f3;
   outline: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .contract-link {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 /* Выезжающий блок */
