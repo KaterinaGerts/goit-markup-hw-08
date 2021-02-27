@@ -1,9 +1,11 @@
 .inline-item {
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .list,
 .address {
-  opacity: 0;
+  display: none;
 }

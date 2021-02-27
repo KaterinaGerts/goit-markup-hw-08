@@ -72,26 +72,25 @@
 
 /* Кнопка бургер*/
 .menu-button {
-  display: block;
+  display: inline-flex;
   margin: 0;
   padding: 0;
   border: none;
+  outline: none;
 
   background-color: transparent;
 
-  & .icon-cross {
+  .icon-cross {
     display: none;
   }
 
-  & .is-open.icon-cross {
+  .is-open.icon-cross {
     display: block;
   }
 
-  & .icon-menu {
-    display: block;
-  }
-  & .is-open.icon-menu {
+  .is-open.icon-menu {
     display: none;
   }
 }
+
 /* Кнопка бургер*/
