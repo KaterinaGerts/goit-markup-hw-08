@@ -2,4 +2,50 @@
   @media screen and (max-width: 1199px) {
     display: none;
   }
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 94px;
+  }
+}
+
+.image-bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.titles {
+  margin: 0px;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: $title-text-color;
+}
+
+.list-images {
+  position: relative;
+  width: 370px;
+  height: 294px;
+
+  .text-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+    background-color: $text-picture-bg-color;
+  }
 }
