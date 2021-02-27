@@ -317,6 +317,14 @@ body {
   background-color: #2196f3;
 }
 
+@media screen and (min-width: 768px) {
+  .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 /*/ссылки кнопки в portfolio.html*/
 .subtitle-text {
   font-weight: bold;

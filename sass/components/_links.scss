@@ -68,6 +68,9 @@
       }
     }
   }
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+  }
 }
 
 /*/ссылки кнопки в portfolio.html*/
