@@ -16,3 +16,10 @@
     color: $secondary-text-color;
   }
 }
+
+.Webstudio {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    margin-right: 88px;
+  }
+}
