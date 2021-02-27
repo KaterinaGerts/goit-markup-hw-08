@@ -38,6 +38,11 @@
 
         color: $accent-text-link-color;
       }
+      @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+        margin-right: 12px;
+        width: 358px;
+      }
     }
     &:hover .contact-input {
       border: 1px solid $accent-color;
@@ -46,9 +51,21 @@
     &:focus-within > .contact-input {
       border: 1px solid $accent-color;
     }
+    @media screen and (min-width: $desktop) {
+      text-align: left;
+    }
   }
   @media screen and (min-width: $tablet) {
     margin-left: 151px;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-left: 0;
+  }
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
+  @media screen and (min-width: $desktop) {
+    align-items: flex-end;
   }
 }
 
@@ -87,5 +104,9 @@
     height: 24px;
 
     fill: $secondary-text-color;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

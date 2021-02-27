@@ -5,6 +5,11 @@
 .padding-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .box-container {
@@ -12,8 +17,14 @@
 
   .contacts-list {
     margin-bottom: 60px;
+
     @media screen and (min-width: $tablet) {
       margin-right: 140px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 0;
+      margin-right: 0;
+      text-align: left;
     }
   }
   @media screen and (min-width: $tablet) {
@@ -21,12 +32,20 @@
     flex-wrap: wrap;
     align-items: baseline;
   }
+  @media screen and (min-width: $desktop) {
+    flex-wrap: nowrap;
+  }
 }
 
 .logo {
   margin-top: 0;
   @media screen and (min-width: $tablet) {
     margin-left: 100px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 0;
+    margin-right: 156px;
   }
 }
 .location {
@@ -58,5 +77,10 @@
 
   .subtitle-text {
     margin-top: 0;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0;
+    margin-right: 93px;
+    text-align: left;
   }
 }

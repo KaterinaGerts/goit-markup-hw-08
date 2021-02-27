@@ -203,6 +203,14 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (min-width: 1200px) {
+  .form .form-field .contact-input {
+    margin-bottom: 0;
+    margin-right: 12px;
+    width: 358px;
+  }
+}
+
 .form .form-field:hover .contact-input {
   border: 1px solid #2196f3;
 }
@@ -211,9 +219,37 @@ body {
   border: 1px solid #2196f3;
 }
 
+@media screen and (min-width: 1200px) {
+  .form .form-field {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .form {
     margin-left: 151px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 
@@ -258,6 +294,13 @@ body {
   width: 24px;
   height: 24px;
   fill: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /*ссылки в index.html*/
@@ -1438,6 +1481,13 @@ body {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .padding-contacts {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
+
 .box-container {
   text-align: center;
 }
@@ -1449,6 +1499,14 @@ body {
 @media screen and (min-width: 768px) {
   .box-container .contacts-list {
     margin-right: 140px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box-container .contacts-list {
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: left;
   }
 }
 
@@ -1465,6 +1523,13 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .box-container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 .logo {
   margin-top: 0;
 }
@@ -1472,6 +1537,13 @@ body {
 @media screen and (min-width: 768px) {
   .logo {
     margin-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-left: 0;
+    margin-right: 156px;
   }
 }
 
@@ -1504,6 +1576,14 @@ body {
 
 .icons .subtitle-text {
   margin-top: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .icons {
+    margin-bottom: 0;
+    margin-right: 93px;
+    text-align: left;
+  }
 }
 
 .border-line {
