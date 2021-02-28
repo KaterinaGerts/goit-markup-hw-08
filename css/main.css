@@ -23,8 +23,8 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -947,12 +947,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .inline-item .menu-container {
-    padding-top: 32px;
-  }
-}
-
 .inline-item .list {
   list-style: none;
   padding: 0;
@@ -1132,6 +1126,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-bottom: 15px;
   }
 }
 
@@ -1223,13 +1218,12 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .title-bar {
-    padding-bottom: 94px;
-  }
+.image-container {
+  padding-top: 0;
 }
 
 .image-bar {
+  margin: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1298,6 +1292,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-bottom: 15px;
   }
 }
 
@@ -1398,7 +1393,9 @@ body {
 
 .clients {
   margin: -15px;
+  margin-top: 30px;
   padding: 0;
+  margin-bottom: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1428,11 +1425,19 @@ body {
   .clients-logo {
     width: 226px;
   }
+  .clients-logo:nth-child(-n + 3) {
+    margin-top: 0;
+  }
+  .clients-logo:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .clients-logo {
     width: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -1588,6 +1593,7 @@ body {
 .image-description {
   margin: 0;
   padding: 0;
+  padding-bottom: 15px;
   list-style: none;
   text-decoration: none;
 }

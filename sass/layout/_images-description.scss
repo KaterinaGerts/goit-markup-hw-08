@@ -2,12 +2,13 @@
   @media screen and (max-width: 1199px) {
     display: none;
   }
-  @media screen and (min-width: $desktop) {
-    padding-bottom: 94px;
-  }
+}
+.image-container {
+  padding-top: 0;
 }
 
 .image-bar {
+  margin: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
