@@ -75,8 +75,12 @@
 
 /* Кнопка бургер*/
 .menu-button {
+  position: absolute;
+  top: 5px;
+  right: 15px;
   display: inline-flex;
   margin: 0;
+  margin-left: 276px;
   padding: 0;
   border: none;
   outline: none;
